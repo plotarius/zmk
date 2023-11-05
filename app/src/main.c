@@ -17,6 +17,15 @@ LOG_MODULE_REGISTER(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include <zmk/display.h>
 #include <drivers/ext_power.h>
 
+<<<<<<< HEAD
+=======
+#ifdef CONFIG_ZMK_MOUSE
+#include <zmk/mouse.h>
+#endif /* CONFIG_ZMK_MOUSE */
+
+#define ZMK_KSCAN_DEV DT_LABEL(ZMK_MATRIX_NODE_ID)
+
+>>>>>>> mouse-ftc/mouse-ftc
 void main(void) {
     LOG_INF("Welcome to ZMK!\n");
 
@@ -27,4 +36,8 @@ void main(void) {
 #ifdef CONFIG_ZMK_DISPLAY
     zmk_display_init();
 #endif /* CONFIG_ZMK_DISPLAY */
+
+#ifdef CONFIG_ZMK_MOUSE
+    zmk_mouse_init();
+#endif /* CONFIG_ZMK_MOUSE */
 }

@@ -35,7 +35,11 @@ module.exports = {
       "behaviors/tap-dance",
       "behaviors/caps-word",
       "behaviors/key-repeat",
+<<<<<<< HEAD
       "behaviors/sensor-rotate",
+=======
+      "behaviors/mouse-emulation",
+>>>>>>> mouse-ftc/mouse-ftc
       "behaviors/reset",
       "behaviors/bluetooth",
       "behaviors/outputs",

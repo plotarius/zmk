@@ -33,7 +33,7 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | One Shot Keys                                                                                                                      | ✅  |    ✅     | ✅  |
 | [Combo Keys](features/combos.md)                                                                                                   | ✅  |           | ✅  |
 | [Macros](behaviors/macros.md)                                                                                                      | ✅  |    ✅     | ✅  |
-| Mouse Keys                                                                                                                         | 🚧  |    ✅     | ✅  |
+| Mouse Keys                                                                                                                         | ✅  |    ✅     | ✅  |
 | Low Active Power Usage                                                                                                             | ✅  |           |     |
 | Low Power Sleep States                                                                                                             | ✅  |    ✅     |     |
 | [Low Power Mode (VCC Shutoff)](behaviors/power.md)                                                                                 | ✅  |    ✅     |     |
@@ -43,7 +43,13 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | AVR/8 Bit                                                                                                                          |     |           | ✅  |
 | [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/latest/boards/index.html)                                       | ✅  |           |     |
 
+<<<<<<< HEAD
 [^2]: Tap-Dances are limited to single and double-tap on BlueMicro
+=======
+
+[^3]: Tap-Dances are limited to single and double-tap on BlueMicro
+[^2]: Encoders are not currently supported on peripheral side splits.
+>>>>>>> mouse-ftc/mouse-ftc
 [^1]: OLEDs are currently proof of concept in ZMK.
 
 ## Code Of Conduct
